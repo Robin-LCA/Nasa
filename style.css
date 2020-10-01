@@ -1,0 +1,64 @@
+body {
+    margin: 0 auto;
+    width: 850px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+    background-image: url(./space2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom:20px;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    height: 324px;
+    background-color: #cccccc;
+    padding-left: 40px;
+}
+
+article {
+    width: 270px;
+    margin-top: 20px
+}
+
+p {
+    font-family: Open Sans, sans-serif;
+    font-size: 14px;
+    line-height: 12px;
+}
+
+h1 {
+    font-family: Changa, sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: Open Sans, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom:20px;
+}
+
+.button {
+    background-color: #4b4b4b;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 2px;
+    cursor: pointer;
+}
